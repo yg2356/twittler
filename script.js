@@ -94,7 +94,6 @@ const handleClickUser = function (event) {
   renderFilteredDATA(targetName);
 };
 
-// 버튼을 모두 완성한 후 주석을 제거하시면 트윗리스트를 볼 수 있습니다.
 tweetButton.onclick = function () {
   if (usernameInput.value && messageInput.value) {
     const tweetObject = {};
